@@ -20,6 +20,7 @@ import {
   SiMysql,
   SiFlutter,
   SiExpo,
+  SiMongodb,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 
@@ -27,6 +28,13 @@ const technologies = [
   {
     title: "Frontend",
     items: [
+      { name: "React", icon: <FaReact />, link: "https://react.dev/" },
+      { name: "Next.js", icon: <SiNextdotjs />, link: "https://nextjs.org/" },
+      {
+        name: "JavaScript",
+        icon: <FaJs />,
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      },
       {
         name: "HTML",
         icon: <FaHtml5 />,
@@ -37,13 +45,6 @@ const technologies = [
         icon: <FaCss3Alt />,
         link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
       },
-      {
-        name: "JavaScript",
-        icon: <FaJs />,
-        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      },
-      { name: "React", icon: <FaReact />, link: "https://react.dev/" },
-      { name: "Next.js", icon: <SiNextdotjs />, link: "https://nextjs.org/" },
       {
         name: "Tailwind",
         icon: <SiTailwindcss />,
@@ -68,6 +69,11 @@ const technologies = [
         link: "https://expressjs.com/",
       },
       { name: "Node.js", icon: <FaNodeJs />, link: "https://nodejs.org/" },
+      {
+        name: "MongoDB",
+        icon: <SiMongodb />,
+        link: "https://www.mongodb.com/",
+      },
       {
         name: "PostgreSQL",
         icon: <SiPostgresql />,

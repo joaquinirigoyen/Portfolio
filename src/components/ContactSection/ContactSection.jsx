@@ -160,7 +160,7 @@ const ContactSection = () => {
 
           <motion.button
             type="submit"
-            className="w-full px-6 py-3 bg-slate-800 text-gray-200 border-gray-300 border dark:border-slate-800 dark:text-slate-800 dark:bg-gray-300 rounded-lg transition-all duration-300 
+            className="w-full px-6 py-3 border-2 font-bold bg-slate-800 text-gray-200 border-gray-300  dark:border-slate-800 dark:text-slate-800 dark:bg-gray-300 rounded-lg transition-all duration-300 
                    hover:bg-gray-300 hover:text-slate-800 dark:hover:bg-slate-800 dark:hover:text-gray-200 hover:scale-105 hover:shadow-lg active:scale-95"
           >
             Enviar
